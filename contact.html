@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Contact Roshni</title>
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <!-- Template CSS -->
+  <link href="//fonts.googleapis.com/css?family=Spartan:400,500,600,700,900&display=swap" rel="stylesheet">
+  <!-- Template CSS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+  <section class="w3l-banner-main w3l-inner-page-main">
+    <div class="breadcrumb-infhny">
+      <header id="site-header" class="header-top">
+        <nav class="navbar navbar-expand-lg shift " id="header">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/lastlogo.png" alt=""><span class="dot-1">.</span>
+          </a>
+          <button class="navbar-toggler bg-gradient" type="button" data-toggle="collapse"
+            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon fa fa-bars"> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link effect-3" href="contact.html">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+      </header>
+
+    </div>
+    <nav id="breadcrumbs" class="breadcrumbs">
+      <div class="page-wrapper">
+        <a href="#">Home</a> » <span class="breadcrumb_last" aria-current="page">Contact</span>
+      </div>
+    </nav>
+  </section>
+
+  <!-- /contact-form -->
+  <section class="w3l-contact-main">
+    <div class="contact-infhny py-5">
+      <div class="container py-lg-3">
+        <div class="top-map">
+          <div class="map-content-9">
+            <form  id="submit-form" action="">
+              <div class="form-top1">
+                <h3 class="hny-title text-center mb-0">Drop me a line</h3>
+                <p class="mb-lg-5 mb-4 text-center">Interested in working together? Please let me know.</p>
+                <div class="form-top">
+
+                  <div class="form-top-left">
+
+                    <div class="input-group">
+
+                      <input  required type="text"  name="Name" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
+                      <span id="name-error"></span>
+
+                    </div>
+                    <div class="input-group">
+                      <input required type="text" name="Phone Number" placeholder="Your phone number"  id="contact-phone"
+                        onkeyup="validatePhone()">
+                      <span id="phonenum-error"></span>
+                    </div>
+                    <div class="input-group">
+                      <input  required type="email" name="Email"  placeholder="Email*" 
+                        id="contact-email" onkeyup="validateEmail()">
+                      <span id="email-error"></span>
+                    </div>
+                   
+                  </div>
+                  <div class="form-top-righ input-group">
+                    <textarea  name="Message"  placeholder="Message*" required="" id="contact-message"
+                      onkeyup="validateMessage()"></textarea>
+                    <span id="message-error"></span>
+                  </div>
+                </div>
+                <div class="text-lg-right text-center">
+                  <button type="submit" id="contact-submit" onclick="return validateForm()">Submit Now</button>
+                  <span id="submit-error"></span>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="cont-details">
+            <ul class="address two">
+              <li><span class="fa fa-map-marker" aria-hidden="true"></span>Valappilthodi
+                House,Kdampazhipuram,Palakkad-678633</li>
+              <li><span class="fa fa-envelope" aria-hidden="true"></span><a
+                  href="vrroshni2001@gmail.com">vrroshni2001@gmail.com</a></li>
+              <li><span class="fa fa-phone" aria-hidden="true"></span>+9181 2966 3552</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.178657031042!2d76.45143401478705!3d10.874012392255327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7d75d52d6549d%3A0x7550f3f7cf34994d!2sVayillyamkunnu%20Bus%20Stop!5e0!3m2!1sen!2sin!4v1656395016331!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+    </div> -->
+
+  </section>
+  <!-- //contact-form -->
+
+  <!-- footer -->
+  <footer class="w3l-footer-16">
+    <div class="footer-content py-lg-5 py-4 text-center">
+      <div class="container">
+        <div class="row copy-right">
+          <div class="col-lg-6 footer-left text-lg-left text-center">
+            <h6>© 2022 Made From Brocamp <span class="fa fa-heart" aria-hidden="true"></span> Designed and coded by <a
+                href="index.html" target="_blank">
+                Roshni vr</a></h6>
+          </div>
+          <div class="col-lg-6 footer-right text-lg-right text-center">
+            <ul class="footer-gd-16">
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="share-icons-footer ml-lg-4">
+              <a href="https://www.facebook.com/roshni.vrjnv/"><span class="fa fa-facebook"></span></a>
+              <a href="https://twitter.com/roshni_vr"><span class="fa fa-twitter"></span></a>
+              <a href="https://www.linkedin.com/in/roshni-vr-59a1211a0/"><span class="fa fa-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+          <span class="fa fa-angle-up"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- move top -->
+
+
+  </footer>
+  <!-- //footer -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <!-- disable body scroll which navbar is in active -->
+  <!-- <script src="assets/js/aos.js"></script>
+  <script src="assets/js/aosindex.js"></script> -->
+  <!-- //aos -->
+  <!-- disable body scroll which navbar is in active -->
+  <!-- //jQuery-Photo-filter-lightbox-portfolio-plugin -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/Validation.js"></script>
+  <script src="https://kit.fontawesome.com/905c740abb.js" crossorigin="anonymous"></script>
+
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("movetop").style.display = "block";
+      } else {
+        document.getElementById("movetop").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <!-- //move top -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!--/MENU-JS-->
+  <script>
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 80) {
+        $("#site-header").addClass("nav-fixed");
+      } else {
+        $("#site-header").removeClass("nav-fixed");
+      }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+      $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+      $(window).on("resize", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+      });
+    });
+  </script>
+  <!--//MENU-JS-->
+  <!-- /aos -->
+  <script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbzFfhik1siaPA8yRndd96oB6WgVQsfD7Hu-jTdb/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
+
+</body>
+
+</html>
